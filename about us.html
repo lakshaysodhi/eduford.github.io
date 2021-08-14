@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>ABOUT</title>
+</head>
+
+<body>
+    <!-- --ABOUT US PAGE-- -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about us.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+            <h1>ABOUT US</h1>
+    </section>
+    <!-- ---------ABOUT US CONTENT--------- -->
+
+    <section class="abt-us">
+        <div class="row">
+            <div class="abt-col">
+                <h1>We Are The World Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sit quod, id vel laborum excepturi distinctio molestias ratione, sint quaerat velit voluptatem magni, est optio. Alias sequi delectus quaerat commodi!</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="abt-col">
+                <img src="/img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ------footer----- -->
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque magni facilis dolor quas repellat vel porro
+            et deserunt eligendi perspiciatis deleniti, fugiat maxime ipsam odio, voluptatem earum, animi distinctio
+            nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, id.</p>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <p>Made with <i class="fas fa-heart"></i> By Lakshay Sodhi</i></p>
+    </div>
+    <!-- ----menu toggel---- -->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function hidemenu() {
+            navlinks.style.right = "-180px";
+        }
+        function showmenu() {
+            navlinks.style.right = "0px";
+        }
+    </script>
+</body>
+
+</html>

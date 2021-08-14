@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>ABOUT</title>
+</head>
+
+<body>
+    <!-- --CONTACT PAGE-- -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about us.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+    <!-- --------Contact content------ -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13905.429557734418!2d76.97582685!3d29.38909945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1628883805705!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h4>Hno.423, sec-12</h4>
+                        <p>huda, panipat,India</p>
+                    </span>
+                    
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h4>+91 9017769745</h4>
+                        <p>monday to sarturday|9:00 AM to 5:00 PM</p>
+                    </span>
+                    
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h4>lakshaysodhi29@gmail.com</h4>
+                        <p>email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Enter your name" required>
+                    <input type="email" name="" id="" placeholder="Enter your Email" required>
+                    <input type="text" name="" id="" placeholder="what's your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------footer----- -->
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque magni facilis dolor quas repellat vel porro
+            et deserunt eligendi perspiciatis deleniti, fugiat maxime ipsam odio, voluptatem earum, animi distinctio
+            nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, id.</p>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <p>Made with <i class="fas fa-heart"></i> By Lakshay Sodhi</i></p>
+    </div>
+    <!-- ----menu toggel---- -->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function hidemenu() {
+            navlinks.style.right = "-180px";
+        }
+        function showmenu() {
+            navlinks.style.right = "0px";
+        }
+    </script>
+</body>
+
+</html>
